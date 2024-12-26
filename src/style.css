@@ -1,0 +1,39 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+ font-family: Arial, Helvetica, sans-serif;  
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.ratingContainer, .thankYouContainer {
+    background-color: #2A3335;
+    padding: 25px;
+    border-radius: 8px;
+}
+.textContainer {
+    color: white;
+    padding: 3px;
+}
+.imageContainer {
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+h1 {
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+p {
+    font-size: 14px;
+    font-weight: 100;
+    
+}
+.thankYouContainer {
+    display: none;
+}
